@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://claygardenpress.com/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://claygardenpress.com/about/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://claygardenpress.com/privacy/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://claygardenpress.com/posts/welcome/</loc>
+    <lastmod>2026-05-18T00:00:00.000Z</lastmod>
+  </url>
+  
+</urlset>

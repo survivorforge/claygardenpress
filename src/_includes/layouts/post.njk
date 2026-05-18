@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+ogtype: article
+---
+<article class="post">
+  <header class="post-header">
+    <p class="post-meta"><time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>{% if tags %} · {% for tag in tags %}<span class="post-tag">{{ tag }}</span>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</p>
+    <h1 class="post-title">{{ title }}</h1>
+    {% if description %}<p class="post-lede">{{ description }}</p>{% endif %}
+  </header>
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+  <hr class="post-divider">
+  <p class="post-disclosure">Some links on this site may be affiliate links — if you buy something we may earn a commission at no extra cost to you. We only link to things we'd actually use.</p>
+</article>

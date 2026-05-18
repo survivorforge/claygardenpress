@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if title and title != "Clay Garden Press" %}{{ title }} · Clay Garden Press{% else %}Clay Garden Press{% endif %}</title>
+<meta name="description" content="{{ description or 'Field notes and deep dives. From the bench, not the boardroom.' }}">
+<link rel="canonical" href="https://claygardenpress.com{{ page.url }}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta property="og:type" content="{{ ogtype or 'website' }}">
+<meta property="og:url" content="https://claygardenpress.com{{ page.url }}">
+<meta property="og:site_name" content="Clay Garden Press">
+<meta property="og:title" content="{{ title or 'Clay Garden Press' }}">
+<meta property="og:description" content="{{ description or 'Field notes and deep dives. From the bench, not the boardroom.' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title or 'Clay Garden Press' }}">
+<meta name="twitter:description" content="{{ description or 'Field notes and deep dives.' }}">
+<meta name="theme-color" content="#1a1810">
+<link rel="alternate" type="application/rss+xml" title="Clay Garden Press" href="/feed.xml">
+<link rel="stylesheet" href="/static/style.css">
+{% if schema %}<script type="application/ld+json">{{ schema | safe }}</script>{% endif %}
+</head>
+<body>
+<header class="site-header">
+  <a href="/" class="brand">
+    <span class="brand-mark"></span>
+    <span class="brand-name">Clay Garden Press</span>
+  </a>
+  <nav class="site-nav">
+    <a href="/">Posts</a>
+    <a href="/about/">About</a>
+  </nav>
+</header>
+
+<main>
+  {{ content | safe }}
+</main>
+
+<footer class="site-footer">
+  <p>© {{ '' | year }} Clay Garden Press · <a href="/privacy/">Privacy &amp; disclosures</a> · <a href="/feed.xml">RSS</a></p>
+</footer>
+</body>
+</html>

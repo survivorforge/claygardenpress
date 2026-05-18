@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Clay Garden Press</title>
+  <subtitle>Field notes and deep dives.</subtitle>
+  <link href="https://claygardenpress.com/feed.xml" rel="self"/>
+  <link href="https://claygardenpress.com/"/>
+  <updated>2026-05-18T00:00:00Z</updated>
+  <id>https://claygardenpress.com/</id>
+  <author>
+    <name>Clay Garden Press</name>
+    <email>hello@claygardenpress.com</email>
+  </author>
+  
+  <entry>
+    <title>Welcome to the press</title>
+    <link href="https://claygardenpress.com/posts/welcome/"/>
+    <updated>2026-05-18T00:00:00Z</updated>
+    <id>https://claygardenpress.com/posts/welcome/</id>
+    <summary>A short note on why this exists and what to expect.</summary>
+    <content type="html">&lt;p&gt;This is the first post. There will be more soon.&lt;/p&gt;
+&lt;h2&gt;What this is&lt;/h2&gt;
+&lt;p&gt;Clay Garden Press is a small independent publication for field notes and deep dives. We pick narrow topics and cover them more carefully than they tend to get covered elsewhere — not for SEO, not for thought leadership, just because the topics deserve it.&lt;/p&gt;
+&lt;h2&gt;What to expect&lt;/h2&gt;
+&lt;p&gt;A new post every few days, on subjects that range across software, money, work, and the occasional digression into something we couldn&#39;t help ourselves about. Most posts are 1,500 to 2,500 words. None are listicles. None are roundups. All are signed.&lt;/p&gt;
+&lt;h2&gt;Why&lt;/h2&gt;
+&lt;p&gt;The open web should have more places that are interesting because someone cared, and fewer that are interesting because someone optimized. We&#39;re trying to be one of the former. If you have suggestions for things we should look into, email us: hello@claygardenpress.com.&lt;/p&gt;
+&lt;p&gt;— The editors&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
